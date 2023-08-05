@@ -1,0 +1,152 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');*/
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   text-decoration: none;
+   background-color: rgba(250, 237, 249, 0.707); 
+}
+.container-General{
+    display:flex;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+    font-family: 'kanit';
+    /*font-size: 30px;*/
+    color: black;
+    text-align: left;
+}
+.articulos{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(252, 211, 248, 0.64);
+  border-radius: 40px;
+  padding: 5%;
+}
+
+.titulo-Art{
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgba(227, 27, 74, 0.581);
+  text-align:justify;
+  padding: 20px;
+  gap: 10px;
+  
+}
+h3{
+    font-size: 18px;
+    padding: 5%;
+    text-align: justify;
+}
+.imgBx{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /*align-self: center;
+  align-content: center;*/
+  align-items: center;  
+}
+.cafe{
+  width: 230px;
+  height: 195px;
+  margin: 10px;
+  background-image: url(/img/cafe.gif);
+}
+.cafe:hover{
+  width: 230px;
+  height: 195px;
+  margin: 10px;
+  align-content: center;
+  background-image: url(/img/darcafe.png);
+}
+.container-Card{
+  display:flex;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 100px 50px;
+  padding: 100px 50px;
+  
+  }
+
+.container .card{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
+  height: 260px;
+  background: #FFF;
+  border-radius: 20px;
+  box-shadow: 0 35px 80px #c6c4c4;
+  transition: 0.5s;
+}
+
+
+.container .card .imgBx{
+  position:absolute;
+  top:0px;
+  width: 280px;
+  height: 240px;
+  /*background: #e15e5e;*/
+  border-radius: 22px;
+  overflow: hidden;
+transition: 0.5s;
+text-decoration: none;
+}
+.container .card:hover .imgBx{
+  bottom: 50px;
+  scale: .90;
+  box-shadow: 0 5px 15px #8587eead;
+}
+.container .card .imgBx img{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  object-fit:cover;
+}
+.content-card{
+  width: 100%;
+  height: 15%;
+  text-decoration: none;
+  box-shadow: 5px 5px 10px ;
+  background-color:#cee0f9 ;
+  border-radius: 5px;
+  }
+  h1{
+    color:rgb(103, 103, 101);
+    
+  }
+.content-card,h1{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5rem;
+  /*margin-top: 0;*/
+  align-content: center;
+  align-items: center;
+  vertical-align: center;
+    z-index: 2;
+  }
+  
+  a:link, a:visited, a:active{
+    
+    color:rgb(77, 75, 75);
+    text-decoration: none;
+  }
+  a:hover{
+    font-size: 22px;
+    color:rgba(227, 27, 74);
+  }
+  
