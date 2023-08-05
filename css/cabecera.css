@@ -9,7 +9,7 @@ import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
 }
 .logo{
-    background-image:url(../img/logomld.png);
+    background-image:url(../img/logomld.jpg);
 }
 .logo-pres{
     display: flex;
