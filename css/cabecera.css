@@ -1,11 +1,12 @@
 import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
-
+/*
 .headerPrincipal{
-    background-color: rgb(234, 243, 249);
-}
+   
+}*/
 .header-cabe{
     /*background-color: #f6e5e5a5;*/
-    font-family: font-family: 'Yanone Kaffeesatz', sans-serif;/*
+    font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgb(234, 243, 249);/*
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
 }
 .logo{
@@ -94,13 +95,16 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
     display: inline-block;
     margin: 0px 15px;
 }
-/*
-.top-bar a {
-    color: #302d2d98;
-}
-
-.top-bar a:hover {
-    color: rgb(49, 61, 128);
-    background: #189bca47;
+@media screen and (max-width: 768px) {
+    .menu{
+            display: none;
     }
-    */
+    
+  }
+  @media screen and (max-width: 480px) {
+    .menu{
+        display: none;
+
+    }
+        
+  }

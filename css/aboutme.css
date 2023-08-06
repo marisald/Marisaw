@@ -148,4 +148,31 @@ text-decoration: none;
     font-size: 22px;
     color:rgba(227, 27, 74);
   }
-  
+  @media screen and (max-width: 768px) {
+    ./*container-General {
+      /*margin: 1em 2em;
+      display:flex;
+    }
+    .about{
+      display: flex;
+      flex-direction: column;
+  }
+  .articulos{
+    display: flex;
+    flex-direction: column;
+  }*/
+}
+  @media screen and (max-width: 400px) {
+   menu{
+      display: none;
+    }
+ .articulos{
+  width: 100vh;
+    }
+  .container .card{
+    width: 100vh;
+  }
+  .container .card .imgBx img{
+    width: 100vh;
+  }
+}
