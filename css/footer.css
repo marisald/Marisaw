@@ -1,28 +1,24 @@
-footer{
-    height: 10vh;
+.footer{
+    height: 15vh;
     display: flex;
     background-color: black;
     color: aliceblue;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
     align-content: right;
-    align-items: center;
-    vertical-align: center;
+   vertical-align: center;
     
   }
 
-.foot-list, p{
-    padding: 20px;
-    text-align: right;
+.foot-list{
+
+    padding: 20px; 
 } 
 
 .foot-list-item{  
-    /*display: inline-block;*/
     display: inline;
-    align-content:right;
-    /*align-self: right;
-    align-items:right;
-    vertical-align:center;*/
-    text-align:right;
-    border-radius: 5px;
     transition: .5s;
+}
+p{
+    align-content: center;
+    padding: 3% 28%;
 }
