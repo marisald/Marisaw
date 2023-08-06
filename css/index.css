@@ -126,7 +126,7 @@ button:hover {
     .container {
       margin: 1em 2em;
       display: inline;
-      padding: 0%;
+      padding: 0;
     }
     .imagen{
       display: block;
@@ -144,7 +144,7 @@ button:hover {
     .imagen{
       display: block;
       margin: auto;
-      width: 200px;
-     height: 350px;
+      width: 250px;
+     height: 400px;
 }
   }
