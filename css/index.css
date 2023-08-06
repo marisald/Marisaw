@@ -137,14 +137,14 @@ button:hover {
   }
   @media screen and (min-width: 320px) and (max-width: 480px) {
     .container {
-      /*margin: 1em 2em;
-      display: inline;*/
+      /*margin: 1em 2em;*/
+      display: inline;
       padding: 0;
     }
     .imagen{
       display: block;
       margin: auto;
       width: 200px;
-  height: 350px;
+     height: 350px;
 }
   }
