@@ -174,14 +174,15 @@ text-decoration: none;
     }
  .container-General {
   display: flex;
-  flex-direction: 1 1 0;
-width:30vh;
-margin-top:20px;
+  flex-direction: column;
+width:80%;
+margin-top:30px;
+  }
+  .about{
+    padding-top: 20px;
   }
   .container-Card{
-   /* position:absolute;
-    display: block;
+       display: block;
     block-size: auto;
-    */
-      }
+         }
 }
