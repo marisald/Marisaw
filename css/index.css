@@ -127,6 +127,8 @@ button:hover {
       margin: 1em 2em;
       display: inline;
       padding: 0;
+      background-color: rgba(250, 237, 249, 0.707); 
+  }
     }
     .imagen{
       display: block;
@@ -140,6 +142,8 @@ button:hover {
       /*margin: 1em 2em;*/
       display: inline;
       padding: 0;
+      background-color: rgba(250, 237, 249, 0.707); 
+  }
     }
     .imagen{
       display: block;
