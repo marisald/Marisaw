@@ -22,3 +22,22 @@ p{
     align-content: center;
     padding: 3% 28%;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .footer{
+        padding: 0;
+     display:block;
+     /* flex-direction:column;*/
+    
+    }
+    
+  }
+  @media screen and (min-width: 481px) and (max-width: 780px) {
+    .footer{
+        padding: 0;
+     display:block;
+     width: auto;
+     /* flex-direction:column;*/
+    
+    }
+    
+  }
