@@ -1,0 +1,23 @@
+{
+    margin: 0;
+    
+}
+.container-head{
+display: flex;
+flex-direction:column 3;
+width: 100%;
+gap:10px;
+opacity: .80;
+background-color: rgba(212, 240, 97, 0.727);
+}
+.banner-text{
+    padding: 10px;
+    z-index: 3;
+    color: #0a0a0a;
+    opacity: 75%;
+    align-self:flex-end;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    opacity: 1;
+  }

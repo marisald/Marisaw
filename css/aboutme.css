@@ -16,13 +16,13 @@ body {
 padding: 3%;
 }
 
-.about{
+.aabout{
+  /*
   display: flex;
-  /*flex-direction:column;*/
+  flex-direction: column 2;
     font-family: 'kanit';
-    /*font-size: 30px;*/
     color: black;
-    text-align: left;
+    text-align: left;*/
 }
 .articulos{
   display: flex;
@@ -174,15 +174,18 @@ text-decoration: none;
     }
  .container-General {
   display: flex;
-  flex-direction: column;
-width:80%;
+  flex-direction: column 1;
 margin-top:30px;
   }
-  .about{
-    padding-top: 20px;
+  .articulos{
+    padding: 5%;
+    gap: 1%;
   }
   .container-Card{
        display: block;
     block-size: auto;
          }
+}
+.container{
+  display: block;
 }
