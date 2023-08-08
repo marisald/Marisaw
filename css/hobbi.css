@@ -69,16 +69,18 @@ body {
     height: auto;
     /*border-radius: 5px 5px 0 0;*/
     @media screen and (min-width: 320px) and (max-width: 667px) {
-        .contenidohobbies{
-          display:flex;
-          margin: auto;
+        
+      .contenidohobbies{
+          display:inline;
+          flex-direction: column 1;
           text-align: justify;
         }
         .img-port{
-          width:375px;
-          height: auto;
+          width:350px;
+          height:250px ;
           background-image: url(/img/IMG_8608hori.jpg);
-          background-size: cover;
+          object-fit: cover;
+    
         }
       .flip-card{
         display:flex;

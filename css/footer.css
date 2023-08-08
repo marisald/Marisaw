@@ -37,7 +37,9 @@ p{
      display:block;
      width: auto;
      /* flex-direction:column;*/
-    
+    }
+    p{
+        text-align: center;
     }
     
   }
