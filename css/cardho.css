@@ -89,3 +89,17 @@
     vertical-align: middle;
     transform: rotateY(180deg);
   }
+  @media screen and (min-width: 320px) and (max-width: 667px) {
+    .container-head{
+      display: block;
+    }
+    .banner{
+      display: none}
+      
+      
+      .container-card{
+        display: block;
+      }
+
+    
+    }
