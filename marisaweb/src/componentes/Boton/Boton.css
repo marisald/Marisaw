@@ -1,0 +1,15 @@
+.boton{
+    padding: 24px 32px;
+    border: none;
+    margin: 32px 0;
+    background-color: chartreuse;
+    font-size: 18 px;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 10px 10px #49474715;
+    cursor: pointer;
+}
+.boton:hover{
+    color:chocolate;
+    background-color: blanchedalmond;
+}

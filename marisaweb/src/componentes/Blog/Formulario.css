@@ -1,0 +1,17 @@
+.formu{
+    display:flex;
+justify-content: center;
+   margin:80px 0;
+}
+.formu form{
+    /*font-family: 'Montserrat', sans-serif;*/
+    max-width: 80%;
+    background-color: #ebdf76;
+    box-shadow: 7px 7px 15px #95891a;
+    border-radius: 20px;
+    padding: 10px 100px;
+}
+.notasblog{
+    display:flex;
+    padding: 10px 3px;
+}

@@ -1,0 +1,11 @@
+.agregarnotas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+}
+.agregarnotas img{
+    max-height: 50px;
+    cursor: pointer;
+}
