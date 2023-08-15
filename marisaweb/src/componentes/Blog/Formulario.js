@@ -1,62 +1,54 @@
-import {useState} from "react";
-import "./Formulario.css";
-import CampoTexto from "../CampoTexto";
-import listaOpciones from "./ListaOpciones/listaOpciones";
-import Boton from "../Boton/Boton";
+import {useState} from "react"
+import "./Formulario.css"
+import CampoTexto from "../CampoTexto"
+import TipoBlog from "../TipoBlog/TipoBlog"
+import Boton from "../Boton/Boton"
 
 const Formulario=()=>{
-    const[titulo,actualizartitulo] = useState("")
+    const[titulo,actualizarTitulo] = useState("")
     const[subtitulo,actualizarSubtitulo] = useState("")
     const[contenido,actualizarContenido] = useState("")
     const[foto,actualizarFoto] = useState("")
-    const[listaopciones,actualizarlistaOpciones]=useState("")
-    const manejarEnvio=(e)=>{
+    const[tiposnotas,actualizartiposNotas]= useState("")
+    const manejarEnvio = (e) => {
         e.preventDefault()
         console.log("Manejar Envio")
-    /*let datosaEnviar={
-        titulo:titulo,
-        subtitulo:subtitulo,
-        foto:foto,
-        contenido:contenido,
-        fecha:fecha,
-    } decir lo mismo que abajo*/
-    let datosaEnviar={
+    let datosAEnviar={
         titulo,
         subtitulo,
         foto,
         contenido,
-        listaopciones,
-    }
-console.log(datosaEnviar)}
+        tiposnotas
+    }   
+console.log (datosAEnviar)}
 
-    return < section className="formu">
+    return <section className="formu">
                 <form onSubmit={manejarEnvio}>
-                <h1>Agregar Notas para el Blog</h1>
-                <CampoTexto titulo="Titulo" 
+                <h2>Agregar Notas para el Blog</h2>
+                <CampoTexto titulo="Titulo"
                 placeholder="Ingresar Titulo"
                  required
                  valor={titulo}
-                 actualizarValor={actualizartitulo}
+                 actualizarValor={actualizarTitulo}
                  />
                 <CampoTexto titulo="Subtitulo" placeholder="Ingresar Subtitulo" required
                 valor={subtitulo}
                 actualizarValor={ actualizarSubtitulo }
                 />
                 <CampoTexto titulo="Foto"
-                placeholder="Foto"
+                placeholder="Ingresa enlace Foto"
                 required
                 valor={foto}
                 actualizarValor={actualizarFoto}
                 />
-                <CampoTexto titulo="contenido"
+                <CampoTexto titulo="Contenido"
                 placeholder="Ingresar Contenido"
                 required
                 valor={contenido}
                 actualizarValor={actualizarContenido}
                 />
-                <listaOpciones/>
-                 
-                <Boton texto="Crear"/>    
+                <TipoBlog valor={tiposnotas} actualizartiposNotas={actualizartiposNotas}/>
+    <Boton texto="Crear"/>    
         </form>
     </section>
 }
