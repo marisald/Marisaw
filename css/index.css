@@ -14,8 +14,8 @@
           text-align: center;
         }
       .imagen{
-width: 300px;
-height: 400px;
+width: 280px;
+height: 370px;
 flex-wrap: wrap;
         background-image: url(/img/caracampo.png);
         border-radius: 50%;
