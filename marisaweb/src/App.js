@@ -15,7 +15,7 @@ actualizarMostrar(!mostrarFormulario)
      <Header/>
 
 { mostrarFormulario && <Formulario/>}
-   <TipoBlog cambiarMostrar={cambiarMostrar}/>
+   {/* <TipoBlog cambiarMostrar={cambiarMostrar}/> */}
         </div>
   );
 }

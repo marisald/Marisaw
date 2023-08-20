@@ -2,9 +2,8 @@ import { useState } from "react"
 import "./CampoTexto.css"
 
 const CampoTexto=(props)=>{
-    const[valor,actualizar]=useState("")
-    
-    const manejarCambio=(e)=>{
+    //const[valor,actualizar]=useState("")
+        const manejarCambio=(e)=>{
         // en vez de esta uso la de abajo actualizarValor(e,target.value)
         props.actualizarValor(e.target.value)
     }

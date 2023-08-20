@@ -1,2 +1,20 @@
-.tipos-notas{
+.tipos-Notas{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 20px;
+    gap: 10%;
+    
+}
+.Notas{
+    display: block;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(201, 240, 101);
+    border:none;
+    outline-color: chartreuse;
+    color: rgb(105, 108, 108);
+    box-shadow: 3px 3px 5px;
+}
+.Notas:hover{
+outline-color: rgb(198, 237, 46);
 }
