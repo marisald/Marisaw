@@ -5,6 +5,9 @@ header{
     max-height: 10vh;
    
 }
+.navbarhamb{
+  display: none;
+}
 
 .header-cabe{
 /*background-color: rgba(241, 163, 152, 0.584);*/
@@ -139,6 +142,7 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
      }
   
   .navbarhamb{
+    display: block;
      height: 48px;
     padding: 10px 12px;
     position: relative;
@@ -192,6 +196,7 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
         display: none;
 
     }
+    
     header{
       margin: 0;
       padding: 0;
@@ -201,6 +206,9 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
     .menu{
       display: none;
     }
+    .logo-pres{
+      display: none;
+    }
        body{
         font-family:'Yanone Kaffeesatz', sans-serif;
         font-size: 1rem;
@@ -208,6 +216,7 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
        }
     
     .navbarhamb{
+      display: block;
        height: 48px;
       padding: 10px 12px;
       position: relative;

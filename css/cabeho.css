@@ -10,7 +10,7 @@
 display: flex;
 flex-direction:column 3;
 opacity: .80;
-background-color: rgba(212, 240, 97, 0.727);
+background-color:  rgb(241, 163, 152) ;
 text-decoration: none;
 }
 .banner-text{
@@ -20,7 +20,7 @@ text-decoration: none;
     opacity: 75%;
     text-align: justify;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     /*background-color: rgba(212, 240, 97, 0.727);*/
     opacity: 1;
     align-items: end;
@@ -91,6 +91,9 @@ text-decoration: none;
        }
        .logo{
         display: none;
+    }
+    .img-port{
+      display: none;
     }
     .banner-text{
         background-color: rgba(241, 162, 152, 0.624) ;
@@ -165,7 +168,7 @@ text-decoration: none;
     }
 
      
-  @media screen and (max-width: 480px) {
+ /* @media screen and (max-width: 480px) {
    
   
 header{
@@ -185,6 +188,9 @@ box-sizing: border-box;
 }
 .logo{
     display: none;
+}
+.banner{
+  display: none;
 }
 .banner-text{
     background-color: rgba(241, 162, 152, 0.624) ;
