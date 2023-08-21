@@ -125,6 +125,7 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
     margin: 0px 15px;
        
 }
+
 @media screen and (max-width: 768px) {
   header{
     margin: 0;
@@ -138,7 +139,7 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
      body{
       font-family:'Yanone Kaffeesatz', sans-serif;
       font-size: 1rem;
-      background-image:linear-gradient(to right, rgb(241, 163, 152) , rgba(241, 162, 152, 0.314));
+      
      }
   
   .navbarhamb{
@@ -213,7 +214,7 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
        body{
         font-family:'Yanone Kaffeesatz', sans-serif;
         font-size: 1rem;
-        background-image:linear-gradient(to right, rgb(241, 163, 152) , rgba(241, 162, 152, 0.314));
+        
        }
     
     .navbarhamb{
@@ -270,5 +271,4 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
   }
     }
         
-  
-
+ 
