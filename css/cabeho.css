@@ -2,11 +2,11 @@
     margin: 0;
     
 }
+
+
 .container-head{
 display: flex;
 flex-direction:column 3;
-width: 100%;
-gap:10px;
 opacity: .80;
 background-color: rgba(212, 240, 97, 0.727);
 text-decoration: none;
