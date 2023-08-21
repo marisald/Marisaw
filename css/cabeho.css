@@ -10,7 +10,7 @@
 display: flex;
 flex-direction:column 3;
 opacity: .80;
-background-color:  rgb(241, 163, 152) ;
+background-color: rgba(212, 240, 97, 0.727);
 text-decoration: none;
 }
 .banner-text{
@@ -87,7 +87,7 @@ text-decoration: none;
        body{
         font-family:'Yanone Kaffeesatz', sans-serif;
         font-size: 1rem;
-        background-image:linear-gradient(to right, rgb(241, 163, 152) , rgba(241, 162, 152, 0.314));
+      
        }
        .logo{
         display: none;
@@ -96,7 +96,7 @@ text-decoration: none;
       display: none;
     }
     .banner-text{
-        background-color: rgba(241, 162, 152, 0.624) ;
+      background-color: rgba(212, 240, 97, 0.727);
         font-size: 0.8rem;    
     }   
     .navbarhamb{
@@ -104,6 +104,7 @@ text-decoration: none;
        height: 48px;
       padding: 10px 12px;
       position: relative;
+      background-color: rgba(212, 240, 97, 0.727);
     }
     .checkbox, .icons{
       width: 24px;
