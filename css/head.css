@@ -147,6 +147,9 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
     padding: 10px 12px;
     position: relative;
   }
+  .logo-pres{
+    display: block;
+  }
   .checkbox, .icons{
     width: 24px;
     height: 24px;
@@ -206,9 +209,7 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
     .menu{
       display: none;
     }
-    .logo-pres{
-      display: none;
-    }
+    
        body{
         font-family:'Yanone Kaffeesatz', sans-serif;
         font-size: 1rem;
@@ -220,6 +221,9 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
        height: 48px;
       padding: 10px 12px;
       position: relative;
+    }
+    .logo-pres{
+      display:block;
     }
     .checkbox, .icons{
       width: 24px;
