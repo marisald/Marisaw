@@ -1,3 +1,204 @@
-.flex{
-   display: inline-block; 
+{
+   width:100vh;
+   font-family: 'Signika Negative', sans-serif;
+   /*font-family: 'Quicksand', sans-serif;*/
+   }
+.artdiseno{
+   display: flex;
+   max-height: 100px;
+}
+.artdiseno img{
+   height:100px;
+   margin-left: 10px;
+   border-radius: 10px;
+  }
+   h1{
+     padding: 10px;
+   color:rgb(235, 228, 230);
+   font-family: 'Signika Negative', sans-serif;
+   /*font-family: 'kanit';
+   font-weight: 900;*/
+   font-size: 1em;
+   font-weight: 700;
+   /*font-variant-caps: petite-caps;*/
+   text-align: center;
+   transition:2s;
+   }
+   p{font-family: 'Quicksand', sans-serif;
+     color: rgb(162, 169, 167);
+     text-align:center}
+     
+   h2{
+   color:rgb(72, 74, 74);
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 500px;
+   font-size: 24px;
+   text-align: center;
+   }
+   h3{
+     font-family: 'Quicksand', sans-serif;
+     font-size: 20px;
+     color: rgb(162, 169, 167);
+     text-align: center;
+   }
+  
+    /* .fotos{
+       display:flex;
+       flex-direction: row;
+       width: 100%;
+      }*/
+
+.diseno p{
+ display:flex;
+       margin: 0;
+       align-self:center;
+       align-items: center;
+       align-content: center;
+       text-align: center;
+       padding: 20px;
+      }
+      .diseno, .hobby{
+       background-color: rgb(35, 35, 34);
+       padding-left: 10%;
+       padding-top: 5%;
+      }
+     .diseno img{
+       width: 500px;  
+       height: auto;  
+     }
+  h4{
+   /*font-family: 'Quicksand', sans-serif;*/
+   width:max-content;
+   font-family: 'Signika Negative', sans-serif;
+   font-weight: 700;
+   background-color:rgba(241, 163, 152, 0.584);
+   padding: 40px 30px;
+   border-radius: 10px;
+   font-weight: 700;
+   text-shadow: 2px 2px rgba(245, 242, 242, 0.209);
+  }
+        
+  .hobby{
+   display: flex;
+   flex-direction: row;
+
+  }
+.hobby p{
+padding: 10px 10px;
+text-align: justify;
+font-size: 1.5rem;
+  }
+  .hobby img{
+   width:400px;
+  }
+  .navfotos  ul {
+   display: inline;
+   color:rgba(240, 233, 233, 0.442);
+   list-style: none;
+  padding: 20px;
+ }
+  .navfotos{
+   display: flex;
+   color: aliceblue;
+}
+a:link{
+   text-decoration: none;
+   color: rgb(229, 235, 235);
+  }
+  a:visited{
+   color: rgba(227, 27, 74, 0.805);
+  }
+  .hobby  li {
+   display: inline;
+   color:rgba(243, 237, 237, 0.442);
+   list-style: none;
+  padding: 20px;
+  cursor: pointer;
+ }
+ .gallery-card{
+   display:flex;
+   flex-direction:row;
+   padding-top: 5px;  
+  }
+ .borde-card{
+       display: inline;
+       padding: 20px;
+       background-color: black;
+   width: 99%;  
+   }
+ .card{
+   display:inline-flex;
+ padding: 30px 20px;
+ }
+ .card h1{
+  color: rgb(96, 100, 100);
+ }
+ .gallery-card .card{
+ /*  justify-content: center;
+   align-items: flex-start;*/
+   width: 300px;
+   height: 300px;
+   background: #FFF;
+   border-radius: 20px;
+   box-shadow: 0 3px 8px #c6c4c4;
+   transition: 0.5s;
+ }
+ 
+ .card img{
+    width: 350px;
+   height: 280px;
+   border-radius: 12px;
+   overflow: hidden;
+ transition: 0.5s;
+ text-decoration: none;
+ }
+ 
+ .card img:hover {
+   bottom: 50px;
+   scale: 2;
+   box-shadow: 0 5px 15px #8587eead;
+ }
+  /*.foto{
+   display: flex;
+  }
+  .foto img{
+   display: block;
+   position: relative;
+
+  }
+  .foto a{
+   align-items: flex-end;
+   text-align: right;
+  }
+ */
+     
+     @media screen and (min-width: 481px) and (max-width: 894px) {
+       .container {
+         margin: 1em 2em;
+         display: inline;
+         padding: 0;
+         background-color: rgba(250, 237, 249, 0.707); 
+     }
+     
+       .imagen{
+         display: block;
+         margin: auto;
+         width: 200px;
+        height: 350px;
+   }
+     }
+     @media screen and (min-width: 320px) and (max-width: 667px) {
+       .container {
+         /*margin: 1em 2em;*/
+         display:inline;
+         flex-direction: row;
+         padding: 0;
+         background-color: rgba(250, 237, 249, 0.707); 
+     }
+          .imagen{
+         display: block;
+         margin: auto;
+         width: 250px;
+        height: 400px;
+   }
 }
