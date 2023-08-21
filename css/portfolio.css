@@ -184,16 +184,23 @@ a:link{
        }
       .diseno img{
         width: 400px;  
-    
       }
-
-      /* .container {
-         margin: 1em 2em;
-         display: inline;
-         padding: 0;
-         background-color: rgba(250, 237, 249, 0.707); 
-     }
-     
+.hobby{
+  display:block;
+ width:100%;
+}
+   .foto{
+    display: block;
+   }
+   foto p{
+    width: fit-content;
+    text-size-adjust: ;
+   }
+ .container{
+  display: block;
+  width:90%
+   }
+    /* 
        .imagen{
          display: block;
          margin: auto;
@@ -213,6 +220,10 @@ a:link{
       padding-top: 10px;
        }
       .diseno img{
-        width: 350px;  
+        width: 330px;  
     
       }
+      .container{
+        display: block;
+        width:90%
+         }
