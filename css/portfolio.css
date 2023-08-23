@@ -3,6 +3,55 @@
    font-family: 'Signika Negative', sans-serif;
    /*font-family: 'Quicksand', sans-serif;*/
    }
+   .container-General{
+    display: flex;
+    width: 100%;
+   }
+   .containerport{
+ width: 99%;
+  }
+ h4{
+  color:rgb(191, 189, 189);
+  font-family: 'Signika Negative', sans-serif;
+  /*font-family: 'kanit';
+  font-weight: 900;*/
+  font-size: 1em;
+  font-weight: 700;
+  /*font-variant-caps: petite-caps;*/
+  text-align: center;
+  transition:2s;
+ }
+ h2{
+  color:rgb(239, 236, 236);
+  font-family: 'Signika Negative', sans-serif;
+  /*font-family: 'kanit';
+  font-weight: 900;*/
+  font-size: 1em;
+  font-weight: 700;
+  /*font-variant-caps: petite-caps;*/
+  text-align: center;
+  transition:2s;
+ }
+ h3{
+  margin:0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4rem;
+  color: rgb(190, 194, 193);
+  text-align:justify;
+  padding:2rem 1rem;
+}
+h1{
+  width:max-content;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 700;
+  background-color:rgba(241, 163, 152, 0.584);
+  padding: 40px 30px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-shadow: 2px 2px rgba(245, 242, 242, 0.209);
+ }
+
+
 .artdiseno{
    display: flex;
    max-height: 100px;
@@ -12,42 +61,18 @@
    margin-left: 10px;
    border-radius: 10px;
   }
-   h1{
-     padding: 10px;
-   color:rgb(235, 228, 230);
-   font-family: 'Signika Negative', sans-serif;
-   /*font-family: 'kanit';
-   font-weight: 900;*/
-   font-size: 1em;
-   font-weight: 700;
-   /*font-variant-caps: petite-caps;*/
-   text-align: center;
-   transition:2s;
-   }
-   p{font-family: 'Quicksand', sans-serif;
-     color: rgb(162, 169, 167);
-     text-align:center}
+p {font-family: 'Quicksand', sans-serif;
+     color: rgb(242, 247, 245);
+     text-align:justify}
      
-   h2{
-   color:rgb(72, 74, 74);
-   font-family: 'Quicksand', sans-serif;
-   font-weight: 500px;
-   font-size: 24px;
-   text-align: center;
-   }
-   h3{
-     font-family: 'Quicksand', sans-serif;
-     font-size: 20px;
-     color: rgb(162, 169, 167);
-     text-align: center;
-   }
-  
+ 
+ 
     /* .fotos{
        display:flex;
        flex-direction: row;
        width: 100%;
       }*/
-
+     
 .diseno p{
  display:flex;
        margin: 0;
@@ -66,23 +91,25 @@
        width: 500px;  
        height: auto;  
      }
-  h4{
-   /*font-family: 'Quicksand', sans-serif;*/
-   width:max-content;
-   font-family: 'Signika Negative', sans-serif;
-   font-weight: 700;
-   background-color:rgba(241, 163, 152, 0.584);
-   padding: 40px 30px;
-   border-radius: 10px;
-   font-weight: 700;
-   text-shadow: 2px 2px rgba(245, 242, 242, 0.209);
+  
+  
+  .containerfoto{
+    display: flex;
+    flex-direction: column 1 1;
+    max-height: 100px;
   }
-        
+  .containerfoto img{
+    display: flex;
+    height:100px;
+    margin-left: 10px;
+    border-radius: 10px;
+   }
+          
   .hobby{
-   display: flex;
-   flex-direction: row;
-
-  }
+    display: flex
+    width: 100%;
+    flex-direction: row;
+  } 
 .hobby p{
 padding: 10px 10px;
 text-align: justify;
@@ -92,6 +119,7 @@ font-size: 1.5rem;
    width:400px;
   }
   .navfotos  ul {
+    font-family: nikita
    display: inline;
    color:rgba(240, 233, 233, 0.442);
    list-style: none;
@@ -110,11 +138,15 @@ a:link{
   }
   .hobby  li {
    display: inline;
+   font-family: 'Signika Negative', sans-serif;
    color:rgba(243, 237, 237, 0.442);
    list-style: none;
   padding: 20px;
   cursor: pointer;
  }
+ .container{
+  display: flex;
+   }
  .gallery-card{
    display:flex;
    flex-direction:row;
@@ -130,8 +162,10 @@ a:link{
    display:inline-flex;
  padding: 30px 20px;
  }
- .card h1{
+ .card h2{
+  font-family: 'Signika Negative', sans-serif;
   color: rgb(96, 100, 100);
+  font-size: 2rem;
  }
  .gallery-card .card{
  /*  justify-content: center;
@@ -158,19 +192,12 @@ a:link{
    scale: 2;
    box-shadow: 0 5px 15px #8587eead;
  }
-  /*.foto{
-   display: flex;
+  h6{
+    font-family: 'Signika Negative', sans-serif;
+  color: rgb(96, 100, 100);
+  font-size: 1rem;
+    text-align: right;
   }
-  .foto img{
-   display: block;
-   position: relative;
-
-  }
-  .foto a{
-   align-items: flex-end;
-   text-align: right;
-  }
- */
      
  @media screen and (min-width: 374px) and (max-width: 894px) {
       .container-General{
@@ -200,14 +227,7 @@ a:link{
   display: block;
   width:90%
    }
-    /* 
-       .imagen{
-         display: block;
-         margin: auto;
-         width: 200px;
-        height: 350px;
-   }
-     }*/
+   
 @media screen and (min-width: 320px) and (max-width: 667px) {
        .container-General {
         display: block;
