@@ -31,6 +31,8 @@ body {
 }
 
 .titulo-Art{
+  box-sizing:border-box ;
+  padding: 15%;
   width: 40%;
   font-size: 1.3rem;
   font-weight: 600;
@@ -132,6 +134,7 @@ text-decoration: none;
     
   }
 .content-card,h1{
+  display: block;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.5rem;
   /*margin-top: 0;*/
@@ -152,15 +155,15 @@ text-decoration: none;
   }
   @media screen and (min-width: 320px) and (max-width: 768px) {
     body{
-      
+      box-sizing: border-box;
+      width: 100%;
     }
     .container-General {
       display: block;
      margin: 1em 2em;
     }
 
- 
-  menu{
+   menu{
     display: none;
   }
 .container-cafe{
@@ -173,9 +176,18 @@ text-decoration: none;
 }
 .articulos{
   display: block;
+  width: 90%;
   text-align: justify;
-  padding: 5%;
-  gap: 1%;
+
+}
+.titulo-Art{
+  width: 100%;
+  font-size: 2rem;
+}
+.about{
+  padding-top:20px;
+  font-size: 1.5rem;
+
 }
 .container-Card{
 display: block;
