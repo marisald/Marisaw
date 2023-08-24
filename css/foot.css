@@ -12,7 +12,10 @@
     text-align: center;
     
   }
-  
+  .navbar{
+    display: flex;
+
+  }
 .foot-list{
 
     padding: 20px; 
@@ -23,6 +26,8 @@
     transition: .5s;
 }
 p{
+  font-size: .7rem;
+  align-self:center;
     align-content: right;
     
 }

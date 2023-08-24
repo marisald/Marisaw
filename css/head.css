@@ -1,8 +1,10 @@
-import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+/*import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');*/
 header{
-    display:inline-flex;
-    flex-direction:column 1 1;
-    max-height: 10vh;
+    display:flex;
+    font-family: 'Signika Negative', sans-serif;
+   /* flex-direction:column 1 1;*/
+    max-height: 25vh;
+    width: 100%;
    
 }
 .navbarhamb{
@@ -10,26 +12,46 @@ header{
 }
 
 .header-cabe{
+  display: flex;
+  flex-direction: column;
 /*background-color: rgba(241, 163, 152, 0.584);*/
 
 background-image:linear-gradient(to right, rgb(241, 163, 152) , rgba(241, 162, 152, 0.314));
 
-font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family:'Yanone Kaffeesatz', sans-serif;
+font-size: .7rem;
+}
+ .menu{
+  display: flex;
+  align-items:right;
+  box-sizing: border-box;
+  width: 99%;
+  
+ } 
+.navbar {
+   box-sizing:border-box;
+   width: 96%;
+   justify-content: space-around;
+  text-align: right;
+  color: #232323;
+text-shadow: 0 2 3px #635f5f, 0 0 5px #494545;
+
 }
 
-
 .logo-pres{
-    display: flex;
-    flex-direction:column;
+    display: block;
+    box-sizing: border-box;
+   /* flex-direction:column;
     justify-content: left;
     align-items: left;
     padding: 20px 20px;
     position: relative;
-    text-align:left;
+    text-align:left;*/
     
     }
   .anima{
-    /*display: flex;*/
+    display: flex;
+    max-height: 15vh;
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count:2;
@@ -71,59 +93,66 @@ font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 700px;
     font-size: 30px;
     
-    }*/
+    }
     h5{
         padding-top: 30px;
         padding-left: 10px;
-    }
+    }*/
  
-  
-.navbar {
-   display: inline-flex;
-    width: 100%;
-    justify-content: space-around;
-    font-family:'Yanone Kaffeesatz', sans-serif; 
-    text-align: right; 
-    text-shadow: 0 0 3px #ed7676, 0 0 5px #faf8f8;
-}
+
 .nav-list {
     display: inline-block;
-    font-size: 20px;
+    font-size: 1rem;
     list-style: none;
-    vertical-align: bottom;
-    text-align: right; 
+    color: black;
+    padding-top: 2.5rem;
+ justify-content: space-around;
        }
 .list-item {
+   
     display: inline-block;
-    padding: 45px 10px; 
-    padding-bottom: 5px;
+    color: black;
+        /*padding: 45px 10px; */
+        padding: 5px 5px; 
+        padding-bottom: 3px;
+        border-radius: 5px;
+    vertical-align: bottom;
+    text-align: right; 
+   /* padding-bottom: 5px;
     border-radius: 5px;
     transition: .5s;
     /*border-left: 4px solid #33b6e559;*/
 }
 .navbar a {
-    color: rgb(56, 55, 55);
+   /* color: rgb(56, 55, 55);*/
     font-weight: 200;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    /*color: rgb(147, 147, 40);*/
-    /*text-shadow: #f4efefae;*/
-    color: rgba(227, 27, 74, 0.805);
-    border-left: 5px solid #2407b159;
+   color: rgb(147, 147, 40);
+  text-shadow: 2px 2px #f4efefae;
+   /* color: rgba(227, 27, 74, 0.805);*/
+    border-left: 5px solid rgb(147, 147, 40);;
     transition: .5s;
 }
-.top-bar ul {
+.navbar :visited{
+  color:rgb(91, 93, 93);
+}
+.navbar :link{
+  color:rgb(91, 93, 93);
+}
+.nav-list ul {
     display: inline-block;
     list-style: none;
     text-align: right; 
- 
+    
 }
-.top-bar li {
+.list-item li {
     display: inline-block;
-    margin: 0px 15px;
-       
+    padding-bottom: 10px;
+   
+   
 }
 
 @media screen and (max-width: 768px) {

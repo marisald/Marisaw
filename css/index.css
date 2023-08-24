@@ -1,10 +1,11 @@
 {
-    width:100vh;
+    width:100%;
+    heigh:100%;
     font-family: 'Quicksand', sans-serif; 
     }
   
     .container{
-    height: 65vh;
+    height: 80vh;
       display: flex;
       }
       .card{
@@ -49,20 +50,17 @@ flex-wrap: wrap;
         opacity: 80%;
       }
     h1{
-      padding: 10px;
+    padding: 10px;
     color:rgb(227, 27, 73);
     font-family: 'Signika Negative', sans-serif;
     font-size: 3em;
     font-weight: 700;
-    /*font-variant-caps: petite-caps;*/
+    font-variant-caps: petite-caps;
     text-align: center;
     transition:2s;
     }
 
-    p{font-family: 'Quicksand', sans-serif;
-      color: rgb(162, 169, 167);
-      text-align:center}
-      
+          
     h2{
     color:rgb(72, 74, 74);
     height: 3rem;
@@ -78,7 +76,12 @@ flex-wrap: wrap;
       color: rgb(162, 169, 167);
       text-align: center;
     }
-   
+    p {
+      font-family: 'Quicksand', sans-serif;
+      color: rgb(162, 169, 167);
+      text-align:center;
+      font-size: 1rem;
+    }
 .areabutton{
   display: flex;
   justify-content: center;
@@ -103,72 +106,7 @@ button:hover {
     gap: 20px;
     font-size: 1.3rem;
   }
-      .container2{
-        display:block;
-        width: 100%;
-       }
- 
-.portfolio p{
-  display:flex;
-        margin: 0;
-        align-self:center;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-        padding: 20px;
-       }
-       .portfolio, .hobby{
-        background-color: rgb(35, 35, 34);
-        padding-left: 10%;
-        padding-top: 5%;
-       }
-      .portfolio img{
-        width: 500px;    
-      }
-   h4{
-    font-family: 'Quicksand', sans-serif;
-    width:max-content;
-    background-color:rgba(241, 163, 152, 0.584);
-    padding: 40px 30px;
-    border-radius: 10px;
-    font-weight: 700;
-    text-shadow: 2px 2px rgba(245, 242, 242, 0.209);
-   }
-         
-   .hobby{
-    display: flex;
-    flex-direction: column;
 
-   }
-.hobby p{
-padding: 10px 10px;
-text-align: justify;
-font-size: 1.5rem;
-   }
-   .hobby img{
-    width:400px;
-   }
-   
-a:link{
-    text-decoration: none;
-    color: rgb(229, 235, 235);
-   }
-   a:visited{
-    color: rgba(227, 27, 74, 0.805);
-   }
-   /*.foto{
-    display: flex;
-   }
-   .foto img{
-    display: block;
-    position: relative;
-
-   }
-   .foto a{
-    align-items: flex-end;
-    text-align: right;
-   }
-  */
       
       @media screen and (min-width: 481px) and (max-width: 894px) {
         .container {

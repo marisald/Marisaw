@@ -41,7 +41,7 @@ text-decoration: none;
     }
 .nav-list {
     display:inline;
-    font-size: 20px;
+    font-size: 1rem;
     list-style: none;
     vertical-align: bottom;
     text-align: right;

@@ -1,4 +1,6 @@
 {
+   /*font-family: 'Quicksand', sans-serif; */
+   font-size: .7rem;
    width:100vh;
    font-family: 'Signika Negative', sans-serif;
    /*font-family: 'Quicksand', sans-serif;*/
@@ -150,33 +152,43 @@ a:link{
   padding: 20px;
   cursor: pointer;
  }
- .container{
+.container{
   display: flex;
+  justify-content: center;
+    text-align: justify;
+    flex-wrap: wrap;
+   
+   
    }
  .gallery-card{
    display:flex;
    flex-direction:row;
-   padding-top: 5px;  
+   justify-content: center;
+   
+   /*padding-top: 5px;  */
   }
  .borde-card{
-       display: inline;
-       padding: 50px;
+  display: inline;
+  /*padding: 50px;*/
    width: 99%;  
    }
  .card{
    display:inline-flex;
- padding: 30px 20px;
+   box-sizing: border-box;
+   width: 30%;
+   height: 35%;
+ padding: 20px 20px 10px 10px;
  }
- .card h2{
+ /*.card h2{
   font-family: 'Signika Negative', sans-serif;
   color: rgb(96, 100, 100);
-  font-size: 2rem;
- }
+  font-size: 1rem;
+ }*/
  .gallery-card .card{
- /*  justify-content: center;
-   align-items: flex-start;*/
-   width: 300px;
-   height: 300px;
+ /*justify-content: center;
+   align-items: flex-start;cya estaba marcado*/
+   width: 30%;
+   height: 25%;
    background: #FFF;
    border-radius: 20px;
    box-shadow: 0 3px 8px #c6c4c4;
@@ -194,14 +206,15 @@ a:link{
  
  .card img:hover {
    bottom: 50px;
-   scale: 2;
+   scale: 1.5;
    box-shadow: 0 5px 15px #8587eead;
  }
-  h6{
+  h5{
     font-family: 'Signika Negative', sans-serif;
   color: rgb(96, 100, 100);
   font-size: 1rem;
-    text-align: right;
+  padding: 10px;
+    text-align: left;
   }
      
  @media screen and (min-width: 374px) and (max-width: 894px) {
