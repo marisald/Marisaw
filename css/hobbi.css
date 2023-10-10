@@ -13,6 +13,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
   width: 100%;
+
  }
 .contenidohobbies{
   display:inline-flexbox;
@@ -52,6 +53,8 @@ body {
     display: flex;
     box-sizing:border-box;
     width: 99%;
+    height:100%;
+    
     }
    /*Add shadows to create the "card" effect 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
@@ -94,6 +97,10 @@ body {
       }
       }
       @media screen and (max-width: 768px) {
+       
+        .logo img{
+          width: 50px;
+        } 
         .present-txt{
           background-color: aliceblue;
         }

@@ -1,8 +1,15 @@
 .header{
-    background-color:#f4e244;
+    background-color:#c3e0f4c5;
     text-align: center;
 }
-
+.logo{
+    padding: 10px 20px;
+    align-self: center;
+    align-items: center;
+    position:absolute;
+    width: 150px;
+}
 .header img {
+   
     max-width: 100%;
 }

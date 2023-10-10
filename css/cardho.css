@@ -12,6 +12,7 @@
     font-variant-caps:petite-caps;
     border-radius: 25px;
      background-color: rgba(212, 240, 97, 0.727);
+     padding-bottom: 40px;
 }
 .card-link{
   text-decoration: none;

@@ -5,7 +5,7 @@ import Header from './componentes/Header/Header';
 import MiBlog from './componentes/MiBlog/MiBlog'
 import Formulario from './componentes/Blog/Formulario';
 // import TipoBlog from './componentes/TipoBlog/TipoBlog';
-//import TiposNotas from './componentes/tiposNotas/tiposNotas';
+import TiposNotas from './componentes/tiposNotas/tiposNotas';
 
 function App() {
   const [mostrarFormulario,actualizarMostrar] = useState(false)
@@ -20,8 +20,11 @@ actualizarMostrar(!mostrarFormulario)
 { mostrarFormulario && <Formulario/>}
 {/* {<TipoBlog cambiarMostrar={cambiarMostrar}/>} */}
 <MiBlog cambiarMostrar={cambiarMostrar} />
-   {/* <TiposNotas/> */}
-        </div>
+  <TiposNotas tiposnotas="MTB"/>
+  <TiposNotas tiposnotas="Rutera"/>
+  <TiposNotas tiposnotas="Running"/>
+  
+        </div>      
   );
 
 }

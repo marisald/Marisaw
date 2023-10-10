@@ -1,6 +1,6 @@
 
   footer{
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     display:inline-block;
     background-color: black;
@@ -26,7 +26,6 @@
     transition: .5s;
 }
 p{
-  font-size: .7rem;
   align-self:center;
     align-content: right;
     

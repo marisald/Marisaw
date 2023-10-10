@@ -77,35 +77,101 @@ font-weight: 200;
     margin: 0px 15px;
 }
 @media screen and (max-width: 768px) {
+  header{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
    
+}
+  
+     body{
+      font-family:'Yanone Kaffeesatz', sans-serif;
+      font-size: 1rem;
+      
+     }
+.container-head .banner-text{
+  display: none;
+}
+    
+  .navbarhamb{
+    display: block;
+     height: 48px;
+    padding: 10px 12px;
+    position: relative;
+  }
+  .logo-pres{
+    display: block;
+  }
+  .checkbox, .icons{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top:10px;
+    right: 12px;
+    cursor: pointer;
+  }
+ 
+  .icons{
+    pointer-events: none;
+    font-size: 24px;
+  }
+  .checkbox{
+    opacity: 0;
+  }
+  .fa-circle-xmark{
+    display: none;
+  }
+  .checkbox:checked ~ .bars-solid{
+    display: none;
+  } 
+.checkbox:checked ~ .fa-circle-xmark{
+  display: block;
+}
+.vermenu{
+  background-color: rgba(241, 162, 152, 0.897) ;
+  border-radius: 20px;
+  box-shadow: 0.5em 0 0.6em #faf8f8;
+  width: 200px;
+  position: absolute;
+  top:48px;
+  right: 0px;
+  display: none;
+  z-index: 3;
+}
+.vermenu li a{
+  display: block;
+  padding: 10px 12px;
+}
+.checkbox:checked ~ .vermenu{
+  display: block;
+}
+  }
+  @media screen and (max-width: 480px) {
+    
     header{
       margin: 0;
       padding: 0;
    box-sizing: border-box;
      
   }
+    .menu{
+      display: none;
+    }
     
        body{
         font-family:'Yanone Kaffeesatz', sans-serif;
         font-size: 1rem;
-      
+        
        }
-       .logo{
-        display: none;
-    }
-    .img-port{
-      display: none;
-    }
-    .banner-text{
-      background-color: rgba(212, 240, 97, 0.727);
-        font-size: 0.8rem;    
-    }   
+    
     .navbarhamb{
-        display: flex;
+      display: block;
        height: 48px;
       padding: 10px 12px;
       position: relative;
-      background-color: rgba(212, 240, 97, 0.727);
+    }
+    .logo-pres{
+      display:block;
     }
     .checkbox, .icons{
       width: 24px;
@@ -133,7 +199,7 @@ font-weight: 200;
     display: block;
   }
   .vermenu{
-    background-color: rgba(212, 240, 97, 0.727);
+    background-color: rgba(241, 162, 152, 0.897) ;
     border-radius: 20px;
     box-shadow: 0.5em 0 0.6em #faf8f8;
     width: 200px;
@@ -146,30 +212,15 @@ font-weight: 200;
   .vermenu li a{
     display: block;
     padding: 10px 12px;
-    color: rgb(204, 40, 40);
-    font-weight: 200;
-    text-decoration: none;
   }
   .checkbox:checked ~ .vermenu{
     display: block;
   }
- 
-.vermenu a:hover {
-    color: rgba(227, 27, 74, 0.805);
-    background-color:#f9f9fb59;
-    transition: .5s;
-}
-.top-bar ul {
-    display: inline-block;
-    list-style: none;
-}
-.top-bar li {
-    display: inline-block;
-    margin: 0px 15px;
-}
     }
+        
+ 
 
-     
+  
  /* @media screen and (max-width: 480px) {
    
   

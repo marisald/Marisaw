@@ -1,0 +1,19 @@
+.tiposnotas{
+background-color: rgb(240, 248, 127);
+box-sizing: border-box;
+width: 80%;
+padding: 32px;
+
+}
+.tiposnotas h3{
+    display: inline-block;
+    border-bottom: solid #4f4e4e;
+    align-self: center;
+    align-items: center;
+   
+    
+    text-align: center;
+}
+.notas{
+
+}
